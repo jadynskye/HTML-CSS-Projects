@@ -6,8 +6,6 @@ These projects explore UI design, styling, and responsiveness with clean code an
 ## 📂 Projects
 
 - **Buttons** → Interactive button designs with hover and active effects.  
-- **Login Page** → Simple responsive login form with styled inputs and buttons.  
-- **Dashboard** → A basic homepage/dashboard with sections, images, and navigation.  
 
 (More will be added as the collection grows!)
 
