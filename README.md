@@ -12,4 +12,3 @@ These projects explore UI design, styling, and responsiveness with clean code an
 ## 🛠️ Built With
 - **HTML5** – Page structure
 - **CSS3** – Styling, hover states, and transitions
-- **Flexbox/Grid** – Responsive layouts (in some projects)
