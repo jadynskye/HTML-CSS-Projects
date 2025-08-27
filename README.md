@@ -1,2 +1,22 @@
-# HTML-CSS-Projects
-A collection of HTML &amp; CSS projects built with clean, semantic HTML5 and modern CSS3 techniques, focusing on accessibility, reusability, and user-friendly design.
+# HTML & CSS Projects
+
+A collection of mini front-end projects built with **HTML5** and **CSS3**.  
+These projects explore UI design, styling, and responsiveness with clean code and interactive elements.
+
+## 📂 Projects
+
+- **Buttons** → Interactive button designs with hover and active effects.  
+- **Login Page** → Simple responsive login form with styled inputs and buttons.  
+- **Dashboard** → A basic homepage/dashboard with sections, images, and navigation.  
+
+(More will be added as the collection grows!)
+
+## 🛠️ Built With
+- **HTML5** – Page structure
+- **CSS3** – Styling, hover states, and transitions
+- **Flexbox/Grid** – Responsive layouts (in some projects)
+
+## 🚀 Getting Started
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/HTML-CSS-Projects.git
