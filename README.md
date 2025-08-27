@@ -1,7 +1,6 @@
 # HTML & CSS Projects
 
-A collection of mini front-end projects built with **HTML5** and **CSS3**.  
-These projects explore UI design, styling, and responsiveness with clean code and interactive elements.
+While teaching myself HTML and CSS, I thought it would be a good idea to keep a collection of mini front-end projects to showcase my growth and skills! Built with **HTML5** and **CSS3**, these projects explore UI design, styling, and responsiveness with clean code and interactive elements.
 
 ## 📂 Projects
 
