@@ -13,8 +13,3 @@ These projects explore UI design, styling, and responsiveness with clean code an
 - **HTML5** – Page structure
 - **CSS3** – Styling, hover states, and transitions
 - **Flexbox/Grid** – Responsive layouts (in some projects)
-
-## 🚀 Getting Started
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/HTML-CSS-Projects.git
