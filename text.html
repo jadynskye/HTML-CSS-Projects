@@ -1,0 +1,245 @@
+<!--General technique: 1. creat element in html 2. style w css-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hi</title>
+        <style>
+
+        /*if many have the same style (ex. all have font-
+        family = arial) then tagret all pharagraphs w p 
+        NOTE HOWEVER - a class name has more priority than an 
+        element name*/
+
+            p{
+                /*changing font*/
+                font-family: Arial, Helvetica, sans-serif;
+                /*resetting all margin*/
+                margin-top: 0;
+                margin-bottom: 0;
+
+            }
+
+            .demo-title{
+                /*changing font size*/
+                font-size: 30px;
+                /*changing font boldness*/
+                font-weight: bold;
+                /*changing font to italisize*/
+                font-style: italic;
+                /*center text*/
+                text-align: center; 
+            }
+            .video-title{
+                font-weight: bold;
+                font-size: 18px;
+                /*setting width for title so it wraps*/
+                width: 280px;
+                /*spacing between lines*/ 
+                line-height: 24px;
+                margin-bottom: 2px;
+            }
+            .video-stats{
+                font-size: 14px;
+                color: rgb(96, 96, 96);
+                /*have to remove already set margin with paragraphs*/
+                
+
+            }
+            .my-name{
+                color:rgb(96, 96, 96);
+                font-size: 14px;
+                margin-top: 30px;
+                
+            }
+            .video-description{
+                font-size: 14px;
+                color:rgb(96, 96, 96);
+                width: 280px;
+                /*line height/spacing for paragraph*/
+                line-height: 22px;
+                /*space outside of paragraph box*/
+                margin-top: 20px;
+
+
+
+            }
+            .link-practice{
+                margin-top: 50px;
+                margin-bottom: 50px;
+                font-size: 14px;
+                color: white;
+                background-color: rgb(227, 65,64);
+                /*using percentages and padding to be reactive/relative*/
+                padding-top: 2.5% ;
+                padding-bottom: 2.5%;
+                padding-right: 10%;
+                padding-left: 10%;
+                text-align: center;
+                /*underlines a sentence*/
+            }
+            .link-practice:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+
+            .shop-now{
+                color:white;
+                text-decoration: underline;
+            }
+            .span-example{
+                color:red;
+                /*adding space between text*/
+                margin-left: 10px;
+            }
+
+
+
+            .different-font{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 20px;
+                padding-top: 10%;
+                padding-bottom: 10%;
+            }
+            .under{
+                color: darkgray;
+                padding-top: .6%;
+                font-size: 13px;
+            }
+            .small-para{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-top: 20px;
+                font-size: 14px;
+                width: 250px;
+                padding-top: 2%;
+                padding-bottom:3%
+            }  
+            .get-started{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: green;
+                color:white;
+                border:none;
+                padding-top: 1.2%;
+                padding-bottom: 1.2%;
+                padding-left: 2%;
+                padding-right: 2%;
+                border-radius: 8px;
+                transition: opacity 1s;
+            }
+            .get-started:hover{
+                opacity: .8;
+            }
+
+            .get-started:active{
+                opacity: .4
+            }
+
+            /*Macbook website testing-->*/
+
+            .New{
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                color: orange;
+                font-size: 12px;
+            }
+            .Macbook-title1{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 18px;
+                margin-top: 6px;
+                margin-bottom: 6px;
+            }
+            .Macbook-title2{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .Macbook-price{
+                text-align: center;
+                font-size: 12px;
+                margin-top: 10px;
+                color: grey;
+            }
+            .Macbook-button{
+                font-family: Arial, Helvetica, sans-serif;
+                display: block;
+                margin: 0 auto;
+                margin-top: 10px;
+                background-color: rgb(66, 122, 241);
+                color: white;
+                border: none;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                padding-left: 2%;
+                padding-right: 2%;
+                border-radius: 15px;
+                transition: opacity 1s;
+            }
+            .Macbook-button:hover{
+                opacity: .7;
+            }
+            /*Coding website practice-->*/
+            .coding-title{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+            }
+            .username1{
+                font-weight:lighter;
+                margin-left: 5px;
+                color: gray;
+            }
+            .coding-paragraph{
+                margin-top: 10px;
+                width: 500px;
+                margin-bottom:20px
+            }
+            .username{
+                color:rgb(78, 173, 205);
+            }
+            .username:hover{
+                text-decoration: underline;
+                opacity: .4;
+            }
+        </style>
+
+    </head>
+    <body>
+        <p class="demo-title">Hi this is a demo title</p>
+        <p class="video-title">Talking tech and AI with Google CEO Sundar Pichai!</p>
+        <p class="video-stats"> 3.4M views &#183; 6 months ago</p>
+        <p class="my-name">Jadyn Skye Reid &#10003; </p>
+        <p class="video-description">Talking tech and AI on the heels of Google 
+            I/O. Also a daily driver phone reveal from Googl'es CEO. 
+            Shoutout to Sundar!</p>
+        <p class="link-practice">Shop early for the best selection of holiday favorites. <span class="shop-now" href="LINK">Shop now &#62;</span></p>
+        <p class="text-practice">
+        <!--<strong> text element is used to make a text bold-->
+            <!--use <span> to single out as text and be able to add classes-->
+            This is <strong>a test text</strong> practice paragraph to 
+            try different (<u>this underlines a text</u>) text elements with <span class = "span-example">CSS</span></p>
+
+
+            <!--more text exercises that I found on the internet and copied-->
+        <p class="different-font"><strong>This is Tahoma Font</strong></p>
+        <p class="CSS course"><strong>HTML CSS Course</strong></p>
+        <p class="under">Beginnger to pro</p>
+        <p class="small-para">In this course, we'll learn the skills you need to become a developer.</p>
+        <button class="get-started">Get Started</button>
+
+        <!--Macbook website testing-->
+        <p class="New">New</p>
+        <p class="Macbook-title1">MackBook Pro</p>
+        <p class="Macbook-title2">Supercharged for pros.</p>
+        <p class="Macbook-price">From $1999</p>
+        <button class="Macbook-button">Buy</button>
+
+        <!--Coding website practice-->
+        <p class="coding-title">freeCodeCamp.org<span class="username1">@freeCodeCamp 1h</span></p>
+        <p class="coding-paragraph">As a web developer, you'll want to make your projects 
+            easy to use and navigate around.</p>
+        <p class="coding-link">Here <span class="username">@chp_it</span> outlines the top skills 
+        developers should have.</p>
+    </body>
+</html>
+    
