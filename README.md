@@ -6,6 +6,7 @@ While teaching myself HTML and CSS, I thought it would be a good idea to keep a 
 
 - **Buttons** → Interactive button designs with hover and active effects.  
 - **Display & Inline Blocks** → Practicing `block`, `inline`, and `inline-block` with inputs, buttons, and a Google-style search bar.
+  ![Screenshot](display.png)
 - **Text Styling** → Experiments with fonts, line height, spacing, and UI elements like MacBook ads and coding site snippets.
 
 (More will be added as the collection grows!)
