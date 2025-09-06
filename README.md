@@ -8,6 +8,8 @@ While teaching myself HTML and CSS, I thought it would be a good idea to keep a 
   ![Screenshot](buttons.png)
 - **Display & Inline Blocks** → Practicing `block`, `inline`, and `inline-block` with inputs, buttons, and a Google-style search bar.
   ![Screenshot](Display.png)
+- **Div Practice** → Shapes, satisfaction box, YouTube Music card, tweet box, and friend profile cards built with divs and CSS styling.
+![Screenshot](div.png)
 - **Text Styling** → Experiments with fonts, line height, spacing, and UI elements like MacBook ads and coding site snippets.
   ![Screenshot](text.png)
   ![Screenshot](text2.png)
