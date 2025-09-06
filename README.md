@@ -14,6 +14,8 @@ While teaching myself HTML and CSS, I thought it would be a good idea to keep a 
   ![Screenshot](text.png)
   ![Screenshot](text2.png)
 
+- **Google Search Clone** → A simple HTML & CSS recreation of Google’s homepage design, with centered logo, pill-shaped search bar, and aligned buttons. 
+ ![Screenshot](google.png)
 (More will be added as the collection grows!)
 
 ## 🛠️ Built With
