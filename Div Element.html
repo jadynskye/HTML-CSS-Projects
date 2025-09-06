@@ -1,0 +1,209 @@
+<!--The div element - aka a container-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Div Practice</title>
+  <style>
+    
+    /*Exercise 1*/
+    .square{
+      background-color: red;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+    }
+
+    /*Exercise 2*/
+    .circle{
+      background-color: green;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      display: inline-block;
+    }
+
+    /*Exercise 3*/
+    .satisfied-box{
+      height: 90px;
+      width: 260px;
+      border: 1px solid lightgray;
+    }
+    .satisfied-text{
+      margin-left: 10px;
+    }
+    .yes-button, .no-button{
+      background-color: rgb(237, 234, 234);
+      border: 1px solid lightgrey;
+      box-shadow: none;
+      color: black;
+      font-weight: 500;
+    }
+
+    .yes-button{
+      margin-left: 10px;
+    }
+
+
+    /*Exercise 4*/
+    .Youtube-music{
+      background-color: rgb(18, 18, 18);
+      opacity: 1;
+      height: 120px;
+      width: 400px;
+    }
+
+    .Title{
+      color: white;
+      font-size: 25px;
+      padding-left: 15px;
+      padding-top: 15px;
+      font-weight: 600;
+
+    }
+    .paragraph{
+      color:rgb(139, 132, 132);
+      width: 340px;
+      padding: 15px;
+      margin-top: -25px;
+    }
+
+    /*Exercise 5*/
+    .tweet{
+      display: block;
+      margin: 10px 0;
+      width: 310px;
+      height: 60px;
+      border: 1px solid #ccc;
+      align-items: center;
+      box-shadow: 0px 0px 3px rgb(165, 162, 162);
+    }
+    .profile-pic{
+      height: 40px;
+      width: 40px;
+      float:left;
+      margin-left: 7px;
+      margin-top: 10px;
+      border-radius: 50%;
+      
+      }
+    .tweet-button{
+      background-color: rgb(114, 181, 235);
+      color: white;
+      border: none;
+      padding-top: 1.5%;
+      padding-bottom: 1.5%;
+      padding-left: 4%;
+      padding-right: 4%;
+      border-radius: 25px;
+      font-size: 12px;
+      transition: .15s;
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+    .tweet-text{
+      border: none;
+      font-size: 13px;
+      margin-left: 10px;
+    }
+
+    .tweet-button:hover{
+      opacity: .7;
+    }
+
+    /*Exercise 6*/
+    .profile,
+    .profile2,
+    .profile3{
+      background-color: white;
+      display: inline-block;
+      height: 240px;
+      width: 150px;
+      box-shadow: 0px 0px 5px grey;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-right: 16px;
+      margin-top: 10px;
+      
+    }
+    .profile-p{
+      height: 151px;
+      width: 150px;
+      border: none;
+      object-fit: cover;
+    }
+    .name{
+      margin-top: 0px;
+      padding-left: 3%;
+      font-weight: bold;
+      margin: 0px;
+    }
+    .mutual-friends{
+      font-size: 12px;
+      margin: 0px;
+      padding: 2%;
+      color: grey;
+    }
+    .add-friend{
+      background-color: rgb(84, 137, 223);
+      color: white;
+      margin: 2px;
+      margin-left: 5px;
+      margin-top: 6px;
+      padding: 6%;
+      border: none;
+      font-size: 12px;
+      cursor: pointer;
+      transition: .15s;
+    }
+    .add-friend:hover{
+      opacity: .8;
+    }
+    .add-friend:active{
+      opacity: .6;
+    }
+  </style>
+  </head>
+  <body>
+    <!--Exercise 1-->
+    <div class="square"></div>
+    <!--Exercise 2-->
+    <div class="circle"></div>
+    <!--Exercise 3-->
+    <div class="satisfied-box">
+      <p class="satisfied-text">Satisfied with our service?</p>
+      <button class="yes-button">Yes</button>
+      <button class="no-button">No</button>
+    </div>
+    <!--Exercise 4-->
+    <div class="Youtube-music">
+      <p class="Title">Install YouTube Music</p>
+      <p class="paragraph">Add YouTube Music to your desktop for quick and easy access</p>
+    </div>
+    <!--Exercise 5-->
+    <div class="tweet">
+      <img class="profile-pic" src="profile-cat.png">
+      <input class="tweet-text" type="text" placeholder="What's happening?">
+      <button class="tweet-button">Tweet</button>
+    </div>
+    <!--Exercise 6-->
+    <div class="profile">
+      <img class="profile-p" src="profile-cat.png">
+      <p class="name">Jadyn</p>
+      <p class="mutual-friends">2 mutual friends</p>
+      <button class="add-friend">Add Friend</button>
+    </div>
+    <div class="profile2">
+      <img class="profile-p" src="profile-cat2.png">
+      <p class="name">Izzy</p>
+      <p class="mutual-friends">2 mutual friends</p>
+      <button class="add-friend">Add Friend</button>
+    </div>
+    <div class="profile3">
+      <img class="profile-p" src="profile-cat3.png">
+      <p class="name">Mia</p>
+      <p class="mutual-friends">2 mutual friends</p>
+      <button class="add-friend">Add Friend</button>
+    </div>
+
+  </body>
+</html>
