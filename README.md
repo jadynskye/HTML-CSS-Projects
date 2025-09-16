@@ -19,6 +19,10 @@ While teaching myself HTML and CSS, I thought it would be a good idea to keep a 
 
 - **Grid** → Practicing **CSS Grid** layouts using simple, colorful blocks. Each section demonstrates a different grid-template setup (fixed tracks, fractional units, and mixed widths).
  ![Screenshot](grid.png)
+
+- **Flexbox** → Practicing **CSS Flexbox** layouts with colorful blocks to see how different elements change the positioning. It shows using fixed widths, flexible growth, element order, and alignment options like `justify-content` and `align-items` to make layouts more flexible and responsive.
+ ![Screenshot](flexbox.png)
+
 (More will be added as the collection grows!)
 
 ## 🛠️ Built With
