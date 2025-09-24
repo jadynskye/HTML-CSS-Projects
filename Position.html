@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position Practice</title>
+  </head>
+  <!--header-->
+  <body>
+    <!--sticking content to top of page-->
+    <div style="
+      height: 50px;
+      width: 700px;
+      background-color: black;
+      color: white;
+      position: fixed;
+      /*puts element to the top of the page / specifies how far away from top*/
+      top: 0px;
+      /*same thing with left - can do right and bottom*/
+      left: 50px;
+      /*setting both with strecth*/
+      right: 50px;
+      z-index: 1;
+    ">
+      header
+    </div>
+
+    <!--sidebar-->
+    <div class="sidebar" style="
+      background-color: green;
+      color: white;
+      /*THIS IS HOW TO MAKE IT STICK*/
+      position: fixed;
+      /*how to move it*/
+      top: 50px;
+      left: 0px;
+      bottom: 0;
+      width: 72px;
+    ">
+      sidebar
+
+      <!--how to attach elements to the corner and side of other elements-->
+      <div style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        font-size: 18px;
+        top: 0px;
+        right: 0px;
+        z-index: 0;
+      ">
+        x
+      </div>
+    </div>
+
+    <!--learning absolute
+    fixed to the page/ not the brower window!
+    
+    ALSO: depending where you place element depends 
+    which element it goes in front of 
+    so.... putting this code below the header, will 
+    put the code in front of the header.
+    or 
+    you can use z-index
+    z-index's with higher number have priority over those
+    who dont and then it doesnt matter where you put your code-->
+    <div style="
+      position: absolute;
+      background-color: red;
+      color: white;
+      top: 60px;
+      right: 10px;
+      z-index: 0;
+    ">
+      absolute
+    </div>
+
+    <div style="
+      display: flex;
+      flex-direction: column; 
+      margin-top: 100px;  
+      margin-left: 100px;
+    ">
+      <div style="
+        background-color: lightblue;
+        height: 200px;
+        width: 200px;
+      ">
+        div 1
+      </div>
+
+      <div style="
+        background-color: lightpink;
+        height: 2000px;
+        width: 200px;
+        margin-top: 20px;
+        position: relative;
+      ">
+        div 2
+
+        <!--when position absolute is in position relative then 
+        then it will stay within the space when you move the page-->
+        <div style="
+          position: absolute;
+          background-color: red;
+          color: white;
+          top: 8px;
+          right: 8px;
+          z-index: 0;
+        ">
+          absolute
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
