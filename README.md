@@ -1,6 +1,6 @@
-# HTML & CSS Projects
+# HTML/CSS/ & JavaScript Projects
 
-While teaching myself HTML and CSS, I thought it would be a good idea to keep a collection of mini front-end projects to showcase my growth and skills! Built with **HTML5** and **CSS3**, these projects explore UI design, styling, and responsiveness with clean code and interactive elements.
+While teaching myself HTML, CSS, and JavaScript I thought it would be a good idea to keep a collection of mini front-end projects to showcase my growth and skills! Built with **HTML5**,**CSS3**,and **JavaScript** these projects explore UI design, styling, and responsiveness with clean code and interactive elements.
 
 ## 📂 Projects
 
@@ -29,8 +29,13 @@ While teaching myself HTML and CSS, I thought it would be a good idea to keep a 
 - **Position Practice** → Exploring **CSS positioning** (`fixed`, `absolute`, `relative`, `static`) with a sticky header, sidebar, and content boxes. This project shows how elements interact with `z-index` and positioning rules.  
   ![Screenshot](position.png)
 
+- Cart Quantity Counter (JavaScript) → A simple interactive project that tracks items in a shopping cart. Using multiple buttons and a shared JavaScript variable, users can add quantities, reset the cart, and view updates directly in the console. This helped me understand variables, event handling, and template literals in JavaScript while connecting HTML elements with logic.
+
+
+
 (More will be added as the collection grows!)
 
 ## 🛠️ Built With
 - **HTML5** – Page structure  
 - **CSS3** – Styling, hover states, and transitions
+- **JavaScript** – Interactive logic and DOM manipulation
