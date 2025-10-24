@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        button{
+            padding: 5px;
+            border: 1px solid black;
+            background-color: rgb(233, 233, 233);
+            font-size: 11px;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+    <p>Cart Quanity</p>
+
+    <button onclick="
+    
+    console.log(`Cart Quantity: ${cartQuantity}`)
+
+    "> Show Quantity </button>
+    
+    
+    <button onclick="
+    
+    cartQuantity+= 1;
+    console.log(`Cart Quantity: ${cartQuantity}`)
+    
+    "> Add to cart </button>
+
+
+    <button onclick="
+    
+    cartQuantity += 2;
+    console.log(`Cart Quantity: ${cartQuantity}`)
+    
+    ">+2</button>
+
+
+    <button onclick="
+    
+    cartQuantity += 3;
+    console.log(`Cart Quantity: ${cartQuantity}`)
+
+    ">+3</button>
+
+
+
+    <button onclick="
+    
+    cartQuantity=0;
+    console.log(`Cart Quantity: ${cartQuantity}`)
+
+    ">reset cart</button>
+
+
+<script>
+    let cartQuantity = 0;
+
+</script>
+</body>
+</html>
