@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coin Flip</title>
+    </head>
+    <body>
+        <button onclick="playGame('Heads')">Heads</button>
+        <button onclick="playGame('Tails')">Tails</button>
+        <script>
+            function playGame(guess){
+                //Generate number and result 
+                const randomNumber = Math.random();
+                //Ternary Operator 
+                const result = randomNumber < .5 ? 'Heads' : 'Tails';
+
+                //check if guess matches result
+                const outcome = guess === result ? 'You win!' : 'You lose!';
+
+                //showing results on console
+                console.log(`You chose ${guess}`);
+                console.log(`Coin landed on ${result}`)
+                console.log(outcome)
+
+                //also show on page
+                alert(`You chose ${guess}\nCoin landed on ${result} \n${outcome} `)
+            }
+
+        </script>
+    </body>
+</html>
