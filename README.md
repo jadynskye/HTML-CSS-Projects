@@ -31,6 +31,8 @@ While teaching myself HTML, CSS, and JavaScript I thought it would be a good ide
 
 - Cart Quantity Counter (JavaScript) → A simple interactive project that tracks items in a shopping cart. Using multiple buttons and a shared JavaScript variable, users can add quantities, reset the cart, and view updates directly in the console. This helped me understand variables, event handling, and template literals in JavaScript while connecting HTML elements with logic.
 
+- Coin Flip Game (JavaScript) → A fun project where the user picks either “Heads” or “Tails” and the computer flips a virtual coin. Using Math.random() and a ternary operator, the game randomly decides the result and tells you if you won or lost. I learned how to use functions, conditionals, and template literals in JavaScript to make interactive buttons and show results on both the console and screen.
+
 
 
 (More will be added as the collection grows!)
