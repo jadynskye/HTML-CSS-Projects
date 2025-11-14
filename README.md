@@ -33,6 +33,7 @@ While teaching myself HTML, CSS, and JavaScript I thought it would be a good ide
 
 - Coin Flip Game (JavaScript) → A fun project where the user picks either “Heads” or “Tails” and the computer flips a virtual coin. Using Math.random() and a ternary operator, the game randomly decides the result and tells you if you won or lost. I learned how to use functions, conditionals, and template literals in JavaScript to make interactive buttons and show results on both the console and screen.
 
+- **Flip**  →  First project with CSS animations! Super simple and fun project with a smooth, vertical flip animation. Fully responsive and easy to customize!
 
 
 (More will be added as the collection grows!)
